@@ -1,0 +1,14 @@
+package com.example;
+
+public class StringBufferDemo {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer();
+		sb.append("test");
+		System.out.println(sb);
+		sb.append("1234");
+		System.out.println(sb);
+		sb.insert(3, "xyz");
+	}
+
+}

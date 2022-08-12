@@ -1,0 +1,6 @@
+package com.example.inheritance;
+
+public class Employee extends Person {
+	private int id;
+	private double salary;
+}

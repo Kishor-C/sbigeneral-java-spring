@@ -1,0 +1,7 @@
+package com.example.abstraction;
+
+
+public interface Vehicle {
+	public int wheels();
+	public double mileage();
+}

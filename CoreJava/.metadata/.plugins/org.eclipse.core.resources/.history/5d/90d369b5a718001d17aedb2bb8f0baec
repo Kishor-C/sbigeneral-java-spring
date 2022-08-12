@@ -1,0 +1,16 @@
+package com.io;
+
+import java.io.FileReader;
+
+public class FileRWDemo {
+
+	public static void main(String[] args) {
+		try {
+			// read the file demo.txt
+			FileReader reader = new FileReader("demo.txt");
+		} catch(Exception e) {
+			System.err.println(e);
+		}
+	}
+
+}

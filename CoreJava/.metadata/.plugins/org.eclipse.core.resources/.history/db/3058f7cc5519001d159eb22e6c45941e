@@ -1,0 +1,8 @@
+package com.collections;
+
+public class Employee {
+	private int id;
+	private String name;
+	private double salary;
+	// 2 constructors, getters & setters, toString
+}

@@ -1,0 +1,17 @@
+package com.example.abstraction;
+
+// If you implement an interface in a class then you must implement all the methods else make class abstract
+class Bike implements Vehicle {
+	@Override
+	public int wheels() {
+		return 2;
+	}
+	public double mileage() {
+		return 0;
+	}
+}
+
+// use this class for main method
+public class AbstractionDemo {
+	
+}

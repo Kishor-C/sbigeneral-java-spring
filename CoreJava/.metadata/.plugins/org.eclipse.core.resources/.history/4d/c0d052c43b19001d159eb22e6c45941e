@@ -1,0 +1,11 @@
+package com.io;
+
+public class SerializationDemo {
+	public static void main(String[] args) {
+		try {
+			
+		} catch (Exception e) {
+			System.err.println(e);
+		}
+	}
+}

@@ -1,0 +1,25 @@
+package example;
+
+public class LoopsDemo {
+	public static void main(String[] args) {
+		// for loop
+		int counter = 0;
+		for(int i = 1; i <= 10; i++) {
+			counter = counter + 2;
+			System.out.println("Counter: "+counter);
+		}
+		System.out.println("-----------------------------------");
+		// while loop
+		int loopCounter = 10;
+		while(loopCounter > 1) {
+			System.out.println("Loop counter: "+loopCounter);
+			loopCounter = loopCounter - 3;
+		}
+		// do while loop
+		do {
+			System.out.println("Loop counter: "+loopCounter);
+			loopCounter = loopCounter - 1;
+		} while(loopCounter > 1);
+		
+	}
+}

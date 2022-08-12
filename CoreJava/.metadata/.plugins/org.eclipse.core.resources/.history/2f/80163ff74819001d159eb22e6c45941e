@@ -1,0 +1,21 @@
+package com.collections;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class SetDemo {
+	public static void main(String[] args) {
+		Set<String> stringSet = new HashSet<String>();
+		stringSet.add("hello"); // will be stored
+		stringSet.add("hello"); // will not be stored
+		stringSet.add("welcome"); // will be stored
+		System.out.println("Size: "+stringSet.size()); // 2
+		// to iterate you can use Iterator interface
+		Iterator<String> iterate = stringSet.iterator();
+		while(iterate.hasNext()) {
+			String item = iterate.next(); // returns the next item
+			System.out.println("Item: "+item);
+		}
+	}
+}

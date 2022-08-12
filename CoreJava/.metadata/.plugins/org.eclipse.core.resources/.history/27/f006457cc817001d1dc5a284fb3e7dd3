@@ -1,0 +1,14 @@
+package com.example.abstraction;
+
+// Vehicle is an interface it cannot have any implementation
+/*
+ * Interface members are by default public
+ * Interface variables are by default public static final
+ * Interface methods are by default public abstract
+ */
+public interface Vehicle {
+	int x;
+	// by default methods are public & abstract in interface
+	public int wheels(); // this is compiled to public abstract int wheels();
+	public double mileage(); // this is compiled to public abstract double milage();
+}

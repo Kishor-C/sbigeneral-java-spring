@@ -1,0 +1,18 @@
+package com.example;
+
+public class UserDemo {
+
+	public static void main(String[] args) {
+		// creating user object: type variable = new type();
+		User user1 = new User();// user1  [name = null, age = 0]
+		user1.name = "Raj";
+		user1.age = 35;
+		user1.userDetails();
+		
+		User user2 = new User(); // user2 [name = null, age = 0]
+		user2.name = "Vijay";
+		user2.age = 40;
+		user2.userDetails();
+	}
+
+}

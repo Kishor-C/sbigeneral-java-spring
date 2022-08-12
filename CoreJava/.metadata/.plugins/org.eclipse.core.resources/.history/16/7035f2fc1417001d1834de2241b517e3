@@ -1,0 +1,10 @@
+package com.example;
+
+public class UserDemo {
+
+	public static void main(String[] args) {
+		// creating user object: type variable = new type();
+		User user1 = new User();
+	}
+
+}

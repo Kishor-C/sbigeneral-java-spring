@@ -1,0 +1,14 @@
+package com.example.inheritance;
+
+public class Student extends Person {
+	private int rollNo;
+	private String grade;
+	
+	public Student(int rollNo, String name, String gender, String grade) {
+		super(name, gender);
+		this.rollNo = rollNo;
+		this.grade = grade;
+		System.out.println("Student(int, String, String, String) constructor");
+	}
+	
+}

@@ -1,0 +1,12 @@
+package com.example.inheritance;
+
+public class InheritanceDemo {
+	public static void main(String[] args) {
+		// Employee constructor is calling default constructor of Person implicitly 
+		Employee emp1 = new Employee(); // observe the flow of execution
+		System.out.println("------------------");
+		// Employee 4 arguments constructor is calling 2 arguments constructor of Person
+		Employee emp2 = new Employee(123, "Sachin", "Male", 45000); // observe the flow of execution
+		
+	}
+}

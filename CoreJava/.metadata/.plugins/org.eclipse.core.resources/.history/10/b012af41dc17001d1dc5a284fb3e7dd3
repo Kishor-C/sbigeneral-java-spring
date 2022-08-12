@@ -1,0 +1,10 @@
+package com.example;
+
+public class MathDemo {
+	public static void main(String[] args) {
+		System.out.println("Math PI: "+Math.PI);
+		System.out.println("Math sqrt: "+Math.sqrt(25));
+		double random = Math.random();
+		System.out.println("Random number: "+random);
+	}
+}

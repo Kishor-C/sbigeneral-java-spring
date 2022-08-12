@@ -1,0 +1,9 @@
+package com.example.encapsulation;
+
+public class EncapsulationDemo {
+	public static void main(String[] args) {
+		Employee emp1 = new Employee(123, "Sachin");
+		Employee emp2 = new Employee(456, "Sourav");
+		
+	}
+}

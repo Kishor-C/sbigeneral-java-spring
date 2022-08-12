@@ -1,0 +1,12 @@
+package example;
+
+public class SwitchWithLoop {
+	public static void main(String[] args) {
+		String[] departments = {"HR", "IT", "Account", "Finance"};
+		double salary = 5000;
+		
+		// Using do while loop  Accept department name from the user at runtime
+		// From switch compare the department name and increase the salary in % base 
+		// loop until you enter -1
+	}
+}

@@ -1,0 +1,17 @@
+package com.example;
+
+public class Test {
+	int x = 10;
+	static int y = 20;
+	
+	Test() {
+		System.out.println("Test() constructor");
+	}
+	
+	Test(int x) {
+		this.x = x;
+		System.out.println("Test(int) constructor");
+	}
+	
+	
+}

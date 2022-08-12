@@ -1,0 +1,9 @@
+package com.io;
+
+public class FileRWDemo {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.example;
+
+public class TestDemo {
+	public static void main(String[] args) {
+		Test t1 = new Test();
+		Test t2 = new Test();
+		
+		t1.y = 35;
+		t2.y = 40;
+		
+		
+	}
+}

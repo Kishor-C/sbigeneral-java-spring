@@ -1,0 +1,17 @@
+package example;
+
+import java.util.Scanner;
+
+public class SwitchDemo {
+	public static void main(String[] args) {
+		// Scanner is used to take input from keyboard
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter a number");
+		int num = scanner.nextInt(); // waits for user to enter int value
+		
+		
+		// close scanner resource after its used
+		scanner.close();
+	}
+}

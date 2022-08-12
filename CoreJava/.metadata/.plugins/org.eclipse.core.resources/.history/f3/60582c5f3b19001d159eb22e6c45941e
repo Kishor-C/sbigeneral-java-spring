@@ -1,0 +1,11 @@
+package com.io;
+
+import java.io.Serializable;
+
+@SuppressWarnings("serial") // annotation to disable the warning
+public class Employee implements Serializable {
+	private int id;
+	private String name;
+	private double salary;
+	// generate 2 constructors, getters & setters, toString
+}

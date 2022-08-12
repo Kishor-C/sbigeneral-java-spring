@@ -1,0 +1,11 @@
+package example;
+
+public class ArraysDemo {
+	public static void main(String[] args) {
+		String[] departmentNames = {"IT", "Finance", "Sales", "HR"};
+		System.out.println("Department name at 0th index: "+departmentNames[0]);
+		System.out.println("Department name at 1st index: "+departmentNames[1]);
+		// using index for 1 or 2 items is okay, but if you have more number of items use loop to start with 
+		// index 0 till end of "array size - 1"
+	}
+}

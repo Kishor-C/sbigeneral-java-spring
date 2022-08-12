@@ -1,0 +1,18 @@
+package com.example;
+
+public class User {
+	// variables
+	String name;
+	int age;
+	
+	
+	User(String a, int b) {
+		name = a;
+		age = b;
+		System.out.println("User(String, int) constructor");
+	}
+	// method that displays name and age
+	void userDetails() {
+		System.out.println("Name = "+name+", Age = "+age);
+	}
+}

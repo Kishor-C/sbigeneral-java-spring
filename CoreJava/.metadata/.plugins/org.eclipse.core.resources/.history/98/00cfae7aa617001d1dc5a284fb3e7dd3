@@ -1,0 +1,25 @@
+package com.example.encapsulation;
+
+public class Employee {
+	// make properties private
+	private int id;
+	private String name;
+	
+	// create constructor to initialize id & name both
+	public Employee(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	// create getters for both id & name, but setters for only name
+	public int getId() { 
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	// setters must accepts arguments
+	public void setName(String name) {
+		this.name = name;
+	}
+}
