@@ -64,4 +64,27 @@ public class EmployeeService {
 		}
 		return list;
 	}
+	// fetch employee by id
+	public Employee fetchEmployee(int id) {
+		Employee employee = null;
+		// initialize employee if employee with an id is found
+		try {
+			Class.forName(Driver.class.getName());
+			Connection connection = DriverManager
+					.getConnection("jdbc:mysql://localhost:3306/sbig?useSSL=false", "root", "root");
+			String query = "select * from employee where id = ?";
+			PreparedStatement pstmt = connection.prepareStatement(query);
+			pstmt.setInt(1, id);
+			ResultSet result = pstmt.executeQuery();
+			while(result.next()) {
+				employee = new Employee(result.getInt("id"), result.getString("name"), result.getDouble("salary"));
+			}
+			result.close();
+			pstmt.close();
+			connection.close();
+		} catch(Exception e) {
+			employee = null;
+		}
+		return employee;
+	}
 }

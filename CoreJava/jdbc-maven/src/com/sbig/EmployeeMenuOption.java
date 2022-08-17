@@ -36,7 +36,17 @@ public class EmployeeMenuOption {
 				list.forEach(emp -> System.out.println(emp));
 				break;
 				// other cases not implemented yet!!
-			case 3: break;
+			case 3: 
+				System.out.println("Enter id");
+				int id = scanner.nextInt();
+				Employee e = service.fetchEmployee(id);
+				if ( e != null ) {
+					System.out.println("_____________ "+id+" found ______________");
+					System.out.println("Name = "+e.getName()+", Salary = "+e.getSalary());
+				} else {
+					System.err.println("____ Sorry "+id+" not found! ___________");
+				}
+				break;
 			case 4: break;
 			case 5: break;
 			}
