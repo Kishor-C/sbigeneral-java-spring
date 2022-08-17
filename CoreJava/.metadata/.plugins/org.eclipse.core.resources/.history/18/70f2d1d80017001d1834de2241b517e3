@@ -1,7 +1,0 @@
-package example;
-
-public class SwitchWithLoop {
-	public static void main(String[] args) {
-		String[] departments = {"HR", "IT", "Account", "Finance"};
-	}
-}

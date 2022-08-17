@@ -1,9 +1,0 @@
-package example;
-
-public class OperatorsDemo {
-	public static void main(String[] args) {
-		byte byteValue1 = 127;
-		byte byteValue2 = -128;
-		System.out.println("Byte Value1: "+byteValue1);
-	}
-}

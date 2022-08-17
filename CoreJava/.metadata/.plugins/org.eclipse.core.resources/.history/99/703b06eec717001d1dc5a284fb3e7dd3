@@ -1,7 +1,0 @@
-package com.example.abstraction;
-
-// Vehicle is an interface it cannot have any implementation
-public interface Vehicle {
-	public int wheels();
-	public double mileage();
-}

@@ -1,7 +1,0 @@
-package example;
-
-public class LoopsDemo {
-	public static void main(String[] args) {
-		// for loop
-	}
-}

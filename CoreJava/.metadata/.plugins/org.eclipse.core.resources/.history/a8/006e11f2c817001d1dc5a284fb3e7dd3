@@ -1,9 +1,0 @@
-package com.example.abstraction;
-
-class Bike implements Vehicle {
-	
-}
-
-public class AbstractionDemo {
-
-}

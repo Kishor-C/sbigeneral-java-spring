@@ -1,9 +1,0 @@
-package com.example.inheritance;
-
-public class InheritanceDemo {
-	public static void main(String[] args) {
-		Employee emp1 = new Employee(); // observe the flow of execution
-		System.out.println("------------------");
-		Employee emp2 = new Employee(123, "Sachin", "Male", 45000);
-	}
-}

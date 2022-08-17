@@ -1,9 +1,0 @@
-package com.example;
-
-public class User {
-	// variables
-	String name;
-	int age;
-	
-	// method that displays name and age
-}

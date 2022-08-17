@@ -1,7 +1,0 @@
-package com.example.encapsulation;
-
-public class Employee {
-	// make properties private
-	private int id;
-	private String name;
-}
