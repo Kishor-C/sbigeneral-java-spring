@@ -1,9 +1,0 @@
-package com.example;
-
-public class StaticImportDemo {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

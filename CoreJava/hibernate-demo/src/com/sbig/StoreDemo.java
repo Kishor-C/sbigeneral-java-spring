@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 public class StoreDemo {
 
 	public static void main(String[] args) {
-		Employee employee = new Employee(444, "Virat", 54000);
+		Employee employee = new Employee(555, "Ravi", 84000);
 		// In Hibernate all the checked exceptions are handled
 		// 1. Load the Configuration 
 		Configuration cfg = new Configuration();
