@@ -1,8 +1,0 @@
-package com.io;
-
-import java.io.Serializable;
-
-@SuppressWarnings("serial") // annotation to disable the warning
-public class Employee implements Serializable {
-
-}

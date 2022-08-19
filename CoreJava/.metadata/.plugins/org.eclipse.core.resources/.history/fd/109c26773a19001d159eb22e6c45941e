@@ -1,7 +1,0 @@
-package com.io;
-
-import java.io.Serializable;
-
-public class Employee implements Serializable {
-
-}
