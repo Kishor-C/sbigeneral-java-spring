@@ -1,0 +1,27 @@
+Case Study:
+	Todo tasks
+		adding task  >> Task: id, name, createdTime, deadlineTime, status = P/C
+		editing task >> Edit deadlineTime by task id or status by task id
+		deleting task >> Delete the task by id
+		fetch task >> Fetch the tasks by id
+
+
+Table Task >> id: int, name: varchar, createdTime: Date, deadlineTime: Date, status: varchar
+
+@Entity Task >> id: int, name: String, createdTime & deadlineTime: LocalDateTime, status: String
+
+Dao >> TaskDao extends JpaRepository<Task, Integer>
+Service >> 
+
+public interface TaskService { 
+	public Task createTask(Task task);
+	public Task editTaskDeadLine(int id, LocalDateTime dateTime);
+	public Task editTaskStatus(int id, String status);
+	public int deleteTask(int id);
+	public Task getTask(int id);
+}
+
+
+
+
+

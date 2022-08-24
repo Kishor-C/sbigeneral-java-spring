@@ -31,4 +31,5 @@ class SpringBootSecondAppApplicationTests {
 			e.printStackTrace();
 		}
 	}
+	// create a negative test case and for the same url expect notfound when BDDMockito willReturn(null)
 }
